@@ -1,5 +1,6 @@
 body {
     background: slategray;
+    color: white; 
 }
 header {
     
@@ -8,12 +9,16 @@ header {
     color: white; 
 }
 
-.colors {
+p {
+    color: white; 
+}
+
+.container {
     border: 2px solid white;
     padding: 10px;
     margin: 10px auto;
 }
-
+ /* colors */
 .color-container {
     width: 100%;
     text-align: center; 
@@ -41,7 +46,39 @@ header {
 .icy-blue {
     background-color: #26C6DA;
 }
+/* fonts */
+.font-container {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
 
-p {
-    color: white; 
+.font-panel {
+    display: inline-block;
+    width: 20%;
+    
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
