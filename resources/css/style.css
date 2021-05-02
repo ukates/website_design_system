@@ -1,0 +1,47 @@
+body {
+    background: slategray;
+}
+header {
+    
+    padding: 10px;
+    text-align: center;
+    color: white; 
+}
+
+.colors {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+    text-align: center; 
+}
+
+.color-panel {
+    display: inline-block;
+    width: 20%; 
+}
+
+.minty-green {
+    background-color: #76D7C4;
+    margin: 20px;
+}
+
+.coral {
+    background-color: #EC7063;
+    margin: 20px;
+}
+
+.whispy-wisteria {
+    background-color: #BB8FCE;
+}
+
+.icy-blue {
+    background-color: #26C6DA;
+}
+
+p {
+    color: white; 
+}
